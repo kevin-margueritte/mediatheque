@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# Movie
+POST    /movie                                  controllers.AddMovieController.addMovie
+GET     /movies                                 controllers.GetMoviesByGenreController.getMoviesByGenre(filter : Option[String] )
+    # Ce n'est pas la bonne façon de faire
+GET     /movies/countByRealisationYear/:year    controllers.CountMoviesController.countMovies(year : Integer)
+
+# Country code
+POST    /country                                controllers.AddCountryCodeController.addCountryCode
+GET     /countries                              controllers.GetAllCountryCodeControllers.getCountries
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /                            controllers.Assets.at(path="/public", file="index.html")

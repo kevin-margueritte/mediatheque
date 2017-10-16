@@ -1,0 +1,470 @@
+{
+	"id": "de852ee4-5440-1498-6160-9a354291b542",
+	"name": "Epic 1",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Count movies",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"order": [
+				"90136beb-8a7d-04f6-bfbb-112517135916",
+				"3c9d1e3c-d005-627a-f277-6a3eb5672471"
+			],
+			"owner": "572791",
+			"folders_order": [],
+			"id": "11d43dd4-ebce-2e4a-bde0-7751012c09a9"
+		},
+		{
+			"name": "Create Movie",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"order": [
+				"f94a86c5-b48f-dd79-f769-7aabb8fc1e33",
+				"be9d7a7b-c45a-cec6-c07f-a0bb8f3dcb03",
+				"2c67ba50-eda3-5611-1f42-6d071d4c1393",
+				"fda534d6-d8e0-8b55-4029-53c11108aa1d",
+				"38900f24-6a88-0d3d-0fce-5f90b5df071e",
+				"07bc6b1b-49cb-6a64-dbf9-13be43a0ad4d"
+			],
+			"owner": "572791",
+			"folders_order": [],
+			"id": "3d42e777-57f3-88cf-d804-d13656e2159d"
+		},
+		{
+			"name": "Create country",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"order": [
+				"b8d92b62-2997-28be-67f1-520a69361dc7",
+				"326c464a-2fe3-8109-e1c2-15429270cd0d"
+			],
+			"owner": "572791",
+			"folders_order": [],
+			"id": "49e479cd-6764-af30-6d39-692b8dcb698c"
+		},
+		{
+			"name": "Get countries",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"order": [
+				"0a65f28b-7ed3-b1a6-2ac6-bc9f15412b3e"
+			],
+			"owner": "572791",
+			"folders_order": [],
+			"id": "5cf9d94c-9e01-d38c-f22f-040d40a49c6f"
+		},
+		{
+			"name": "Get movies",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"order": [
+				"7a9ccec9-c28d-c159-38e6-5128487b3529",
+				"52c2a935-a1af-3052-0a0e-bc05d4ceda0c"
+			],
+			"owner": "572791",
+			"folders_order": [],
+			"id": "24d49141-551a-270b-f316-7093428fcad0"
+		}
+	],
+	"folders_order": [
+		"3d42e777-57f3-88cf-d804-d13656e2159d",
+		"24d49141-551a-270b-f316-7093428fcad0",
+		"11d43dd4-ebce-2e4a-bde0-7751012c09a9",
+		"5cf9d94c-9e01-d38c-f22f-040d40a49c6f",
+		"49e479cd-6764-af30-6d39-692b8dcb698c"
+	],
+	"timestamp": 1508083317720,
+	"owner": "572791",
+	"public": false,
+	"requests": [
+		{
+			"id": "07bc6b1b-49cb-6a64-dbf9-13be43a0ad4d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508086883307,
+			"name": "Good request - no original title and country = FRA",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Intouchable\",\n\t\"frenchRelease\": \"2000/03/01\",\n\t\"year\": 2000,\n\t\"ranking\": 1,\n\t\"country\": \"FRA\",\n\t\"genres\": [\"Fantastique\", \"Policier\"],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		},
+		{
+			"id": "0a65f28b-7ed3-b1a6-2ac6-bc9f15412b3e",
+			"headers": "",
+			"headerData": [],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/countries",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get countries",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508087363662,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "5cf9d94c-9e01-d38c-f22f-040d40a49c6f"
+		},
+		{
+			"id": "2c67ba50-eda3-5611-1f42-6d071d4c1393",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": [],
+			"dataMode": "raw",
+			"name": "No original title and country <> FRA",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508086699139,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"rawModeData": "{\n\t\"title\": \"Green line\",\n\t\"french_release\": \"2000/03/01\",\n\t\"year\": 2000,\n\t\"ranking\": 1,\n\t\"country\": \"USA\",\n\t\"genres\": [\"Fantastique\", \"Policier\"],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		},
+		{
+			"id": "326c464a-2fe3-8109-e1c2-15429270cd0d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/country",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "FFF",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Country code not conform",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508087784055,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "49e479cd-6764-af30-6d39-692b8dcb698c",
+			"rawModeData": "{\n\t\"country\" : \"11A\"\n}"
+		},
+		{
+			"id": "38900f24-6a88-0d3d-0fce-5f90b5df071e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Bad date",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508086808611,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"rawModeData": "{\n\t\"title\": \"Green line\",\n\t\"frenchRelease\": \"2000/63/01\",\n\t\"year\": 2000,\n\t\"ranking\": 1,\n\t\"originalTitle\": \"La ligne verte\",\n\t\"country\": \"USA\",\n\t\"genres\": [\"Fantastique\", \"Policier\"],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		},
+		{
+			"id": "3c9d1e3c-d005-627a-f277-6a3eb5672471",
+			"headers": "",
+			"headerData": [],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movies/countByRealisationYear/333333",
+			"folder": "11d43dd4-ebce-2e4a-bde0-7751012c09a9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508086230989,
+			"name": "Bad request",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": []
+		},
+		{
+			"id": "52c2a935-a1af-3052-0a0e-bc05d4ceda0c",
+			"headers": "",
+			"headerData": [],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movies",
+			"folder": "24d49141-551a-270b-f316-7093428fcad0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508086213425,
+			"name": "No filter",
+			"description": "Whith filter",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": []
+		},
+		{
+			"id": "7a9ccec9-c28d-c159-38e6-5128487b3529",
+			"headers": "",
+			"headerData": [],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movies?filter=fantastique",
+			"folder": "24d49141-551a-270b-f316-7093428fcad0",
+			"queryParams": [
+				{
+					"key": "filter",
+					"value": "fantastique",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508087194473,
+			"name": "With filter",
+			"description": "Whith filter",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": []
+		},
+		{
+			"id": "90136beb-8a7d-04f6-bfbb-112517135916",
+			"headers": "",
+			"headerData": [],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movies/countByRealisationYear/2000",
+			"folder": "11d43dd4-ebce-2e4a-bde0-7751012c09a9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508086224269,
+			"name": "Good request",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": []
+		},
+		{
+			"id": "b8d92b62-2997-28be-67f1-520a69361dc7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/country?country=fra",
+			"folder": "49e479cd-6764-af30-6d39-692b8dcb698c",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "fra",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508087675765,
+			"name": "Good  request",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": [],
+			"rawModeData": "{\n\t\"country\" : \"USA\"\n}"
+		},
+		{
+			"id": "be9d7a7b-c45a-cec6-c07f-a0bb8f3dcb03",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Bad nationality",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508086622824,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"rawModeData": "{\n\t\"title\": \"Green line\",\n\t\"french_release\": \"2000/03/01\",\n\t\"year\": 2000,\n\t\"ranking\": 1,\n\t\"originalTitle\": \"La ligne verte\",\n\t\"country\": \"UScA\",\n\t\"genres\": [\"Fantastique\", \"Policier\"],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		},
+		{
+			"id": "f94a86c5-b48f-dd79-f769-7aabb8fc1e33",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508086238597,
+			"name": "No french release",
+			"description": "",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Forrest Gump\",\n\t\"french_release\": \"1994/05/01\",\n\t\"year\": 2014,\n\t\"ranking\": 10,\n\t\"originalTitle\": \"Forrest Gump\",\n\t\"country\": \"USA\",\n\t\"genres\": [\"Romance\", \"Comedie dramatique\"],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		},
+		{
+			"id": "fda534d6-d8e0-8b55-4029-53c11108aa1d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://mediatheque-mrgueritte.herokuapp.com/movie",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de852ee4-5440-1498-6160-9a354291b542",
+			"data": [],
+			"dataMode": "raw",
+			"name": "No genre",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508086748349,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d42e777-57f3-88cf-d804-d13656e2159d",
+			"rawModeData": "{\n\t\"title\": \"Green line\",\n\t\"french_release\": \"2000/03/01\",\n\t\"year\": 2000,\n\t\"ranking\": 1,\n\t\"originalTitle\": \"La ligne verte\",\n\t\"country\": \"USA\",\n\t\"genres\": [],\n\t\"synopsis\": \"jknfdjknjkndfgjkndfjnfdjknvknjvndsjvbddvn\"\n}"
+		}
+	]
+}
